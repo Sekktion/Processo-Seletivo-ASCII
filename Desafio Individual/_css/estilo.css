@@ -1,0 +1,359 @@
+@charset "UTF-8";
+
+/* Formatações da página Index.html */
+/* Formatação de textos e títulos */
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify; 
+    font-size: 17px;
+    font-weight: 500;
+    text-indent: 32px;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    color: rgb(0, 0, 0);
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    color: rgb(0, 0, 0);
+}
+img {
+    width: 200;
+    height: 200;
+}
+
+/* Formatação do cabeçalho */
+
+header#cabecalho {
+    width: 100%;
+    height: 60px;
+    top: 0px;
+    margin-left: -8px;
+    margin-right: -8px;
+    position: absolute;
+    top: 0px;
+    background: linear-gradient(to right, #007788  0%, #00d5d5 100%);
+}
+
+nav#titulo ul{
+    list-style: none;
+    position: absolute;
+    left: -40px;
+    top: -13px;
+}
+
+nav#titulo li {
+    margin: 18px;
+    font-size: 20px;
+}
+
+nav#titulo p {
+    color: white;
+}
+
+nav#menu ul {
+    list-style: none;
+    position: absolute;
+    right: 20px;
+    top: -22px;
+}
+
+nav#menu li {
+    display: inline-block;
+    margin: 4px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    -webkit-transition: background-color 0.5s, -webkit-box-shadow 0.5s;
+    transition: background-color 0.5s, -webkit-box-shadow 0.5s;
+    -o-transition: background-color 0.5s, box-shadow 0.5s;
+    transition: background-color 0.5s, box-shadow 0.5s;
+    transition: background-color 0.5s, box-shadow 0.5s, -webkit-box-shadow 0.5s;
+}
+
+nav#menu li:hover {
+    background-color: #00a8c2;
+    box-shadow: 1px 1px 2px #007788;
+}
+
+nav#menu a{
+    color: white;
+    text-decoration: none;
+}
+
+nav#menu p {
+    color: white;
+}
+
+/* Formatação da Interface */
+
+div#mim {
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 150px;
+    padding-left: 800px;
+    width: 600px;
+    transition: all 1s;
+    opacity: 1;
+}
+
+div#habilidades {
+    position: absolute;
+    top: 400px;
+    padding-left: 800px;
+    transition: all 1s;
+}
+
+div#empresa {
+    position: absolute;
+    bottom: 100px;
+    left: 575px;
+    width: 800px;
+    transition: all 1s;
+}
+
+div#eu {
+    position: absolute;
+    padding-left: 670px;
+    top: 150px;
+    transition: all 2s;
+}
+
+img#fotoeu {
+    box-shadow: 1px 1px 4px rgb(5, 55, 63);
+    position: relative;
+    left: -220px;
+}
+
+div#skills {
+    position: absolute;
+    float: left;
+    padding-left: 670px;
+    top: 400px;
+    transition: all 2s;
+}
+
+img#fotoskills {
+    box-shadow: 1px 1px 4px rgb(5, 55, 63);
+    position: relative;
+    left: -220px;
+}
+
+/* Formatação do Rodapé */
+
+footer#rodape {
+    color: white;
+    background: linear-gradient(to right, #007788  0%, #00d5d5 100%);
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 45px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+footer#rodape i {
+    color: rgb(165, 20, 194);
+}
+
+center#textorodape {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Formatações da página contato.html */
+/* Formatação da Interface */
+
+div#contato {
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 250px;
+    padding-left: 800px;
+    width: 600px;
+    transition: all 1s;
+    opacity: 1;
+}
+
+div#findme {
+    position: absolute;
+    top: 500px;
+    padding-left: 800px;
+    transition: all 1s;
+}
+
+div#tel {
+    position: absolute;
+    padding-left: 670px;
+    top: 250px;
+    transition: all 2s;
+}
+
+img#fototel {
+    box-shadow: 1px 1px 4px rgb(5, 55, 63);
+    position: relative;
+    left: -220px;
+}
+
+div#outros {
+    position: absolute;
+    float: left;
+    padding-left: 670px;
+    top: 500px;
+    transition: all 2s;
+}
+
+img#fotooutros {
+    box-shadow: 1px 1px 4px rgb(5, 55, 63);
+    position: relative;
+    left: -220px;
+}
+
+/* Formatações da página sobremim.html */
+/* Formatação da Interface */
+
+div#textosobre {
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 250px;
+    padding-left: 800px;
+    width: 600px;
+    transition: all 1s;
+    opacity: 1;
+}
+
+div#hobbies {
+    position: absolute;
+    top: 500px;
+    padding-left: 800px;
+    width: 600px;
+    transition: all 1s;
+}
+
+div#sobre {
+    position: absolute;
+    padding-left: 670px;
+    top: 250px;
+    transition: all 2s;
+}
+
+img#sobrefoto {
+    box-shadow: 1px 1px 4px rgb(5, 55, 63);
+    position: relative;
+    left: -220px;
+}
+
+div#hobby {
+    position: absolute;
+    padding-left: 670px;
+    top: 500px;
+    transition: all 2s;
+}
+
+img#hobbyfoto {
+    box-shadow: 1px 1px 4px rgb(5, 55, 63);
+    position: relative;
+    left: -220px;
+}
+
+/* Formatações da página habilidades.html */
+/* Formatação da Interface */
+
+div#listacoding {
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 120px;
+    padding-left: 800px;
+    width: 600px;
+    transition: all 1s;
+    opacity: 1;
+}
+
+div#listacoding ul {
+    list-style: none;
+    margin-left: -30px;
+}
+
+div#listacoding li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+div#listalightbulb {
+    position: absolute;
+    top: 370px;
+    padding-left: 800px;
+    width: 600px;
+    transition: all 1s;
+}
+
+div#listalightbulb ul {
+    list-style: none;
+    margin-left: -30px;
+}
+
+div#listalightbulb li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+div#listalinguas {
+    position: absolute;
+    top: 620px;
+    padding-left: 800px;
+    width: 600px;
+    transition: all 1s;
+}
+
+div#listalinguas ul {
+    list-style: none;
+    margin-left: -30px;
+}
+
+div#listalinguas li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+div#coding {
+    position: absolute;
+    padding-left: 670px;
+    top: 120px;
+    transition: all 2s;
+}
+
+img#codingfoto {
+    box-shadow: 1px 1px 4px rgb(5, 55, 63);
+    position: relative;
+    left: -220px;
+}
+
+div#lightbulb {
+    position: absolute;
+    padding-left: 670px;
+    top: 370px;
+    transition: all 2s;
+}
+
+img#lightbulbfoto {
+    box-shadow: 1px 1px 4px rgb(5, 55, 63);
+    position: relative;
+    left: -220px;
+}
+
+div#linguas {
+    position: absolute;
+    padding-left: 670px;
+    top: 620px;
+    transition: all 2s;
+}
+
+img#linguasfoto {
+    box-shadow: 1px 1px 4px rgb(5, 55, 63);
+    position: relative;
+    left: -220px;
+}
