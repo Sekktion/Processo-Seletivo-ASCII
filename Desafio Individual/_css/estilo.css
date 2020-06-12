@@ -1,27 +1,31 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera&family=Roboto:wght@300&display=swap');
 
 /* Formatações da página Index.html */
 /* Formatação de textos e títulos */
 p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: justify; 
     font-size: 17px;
     font-weight: 500;
     text-indent: 32px;
 }
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lexend Tera', sans-serif;
     font-size: 15pt;
     color: rgb(0, 0, 0);
 }
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lexend Tera', sans-serif;
     font-size: 13pt;
     color: rgb(0, 0, 0);
 }
 img {
     width: 200;
     height: 200;
+}
+li {
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Formatação do cabeçalho */
@@ -51,22 +55,23 @@ nav#titulo li {
 
 nav#titulo p {
     color: white;
+    font-family: 'Lexend Tera', sans-serif;
 }
 
 nav#menu ul {
     list-style: none;
     position: absolute;
     right: 20px;
-    top: -22px;
+    top: -18px;
 }
 
 nav#menu li {
     display: inline-block;
-    margin: 4px;
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 19px;
+    font-family: 'Lexend Tera', sans-serif;
     font-weight: 400;
     font-size: 18px;
+    -moz-transition: background-color 0.5s, box-shadow 0.5s;
     -webkit-transition: background-color 0.5s, -webkit-box-shadow 0.5s;
     transition: background-color 0.5s, -webkit-box-shadow 0.5s;
     -o-transition: background-color 0.5s, box-shadow 0.5s;
@@ -90,12 +95,25 @@ nav#menu p {
 
 /* Formatação da Interface */
 
+div#pagina {
+    color: rgba(0, 0, 0);
+    position: absolute;
+    top: 75px;
+    padding-left: 47%;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
 div#mim {
     color: rgba(0, 0, 0, 1);
     position: absolute;
     top: 150px;
-    padding-left: 800px;
+    padding-left: 41%;
     width: 600px;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
     transition: all 1s;
     opacity: 1;
 }
@@ -103,27 +121,35 @@ div#mim {
 div#habilidades {
     position: absolute;
     top: 400px;
-    padding-left: 800px;
+    padding-left: 41%;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
     transition: all 1s;
 }
 
 div#empresa {
     position: absolute;
     bottom: 100px;
-    left: 575px;
+    left: 30%;
     width: 800px;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
     transition: all 1s;
 }
 
 div#eu {
     position: absolute;
-    padding-left: 670px;
+    padding-left: 35%;
     top: 150px;
+    -moz-transition: all 2s;
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
     transition: all 2s;
 }
 
 img#fotoeu {
-    box-shadow: 1px 1px 4px rgb(5, 55, 63);
     position: relative;
     left: -220px;
 }
@@ -131,13 +157,15 @@ img#fotoeu {
 div#skills {
     position: absolute;
     float: left;
-    padding-left: 670px;
+    padding-left: 35%;
     top: 400px;
+    -moz-transition: all 2s;
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
     transition: all 2s;
 }
 
 img#fotoskills {
-    box-shadow: 1px 1px 4px rgb(5, 55, 63);
     position: relative;
     left: -220px;
 }
@@ -160,7 +188,9 @@ footer#rodape i {
 }
 
 center#textorodape {
-    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    bottom: 15%;
+    font-family: 'Lexend Tera', sans-serif;
 }
 
 /* Formatações da página contato.html */
@@ -170,8 +200,11 @@ div#contato {
     color: rgba(0, 0, 0, 1);
     position: absolute;
     top: 250px;
-    padding-left: 800px;
+    padding-left: 41%;
     width: 600px;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
     transition: all 1s;
     opacity: 1;
 }
@@ -179,19 +212,24 @@ div#contato {
 div#findme {
     position: absolute;
     top: 500px;
-    padding-left: 800px;
+    padding-left: 41%;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
     transition: all 1s;
 }
 
 div#tel {
     position: absolute;
-    padding-left: 670px;
+    padding-left: 35%;
     top: 250px;
+    -moz-transition: all 2s;
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
     transition: all 2s;
 }
 
 img#fototel {
-    box-shadow: 1px 1px 4px rgb(5, 55, 63);
     position: relative;
     left: -220px;
 }
@@ -199,13 +237,15 @@ img#fototel {
 div#outros {
     position: absolute;
     float: left;
-    padding-left: 670px;
+    padding-left: 35%;
     top: 500px;
+    -moz-transition: all 2s;
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
     transition: all 2s;
 }
 
 img#fotooutros {
-    box-shadow: 1px 1px 4px rgb(5, 55, 63);
     position: relative;
     left: -220px;
 }
@@ -217,8 +257,11 @@ div#textosobre {
     color: rgba(0, 0, 0, 1);
     position: absolute;
     top: 250px;
-    padding-left: 800px;
+    padding-left: 41%;
     width: 600px;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
     transition: all 1s;
     opacity: 1;
 }
@@ -226,33 +269,40 @@ div#textosobre {
 div#hobbies {
     position: absolute;
     top: 500px;
-    padding-left: 800px;
+    padding-left: 41%;
     width: 600px;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
     transition: all 1s;
 }
 
 div#sobre {
     position: absolute;
-    padding-left: 670px;
+    padding-left: 35%;
     top: 250px;
+    -moz-transition: all 2s;
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
     transition: all 2s;
 }
 
 img#sobrefoto {
-    box-shadow: 1px 1px 4px rgb(5, 55, 63);
     position: relative;
     left: -220px;
 }
 
 div#hobby {
     position: absolute;
-    padding-left: 670px;
+    padding-left: 35%;
     top: 500px;
+    -moz-transition: all 2s;
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
     transition: all 2s;
 }
 
 img#hobbyfoto {
-    box-shadow: 1px 1px 4px rgb(5, 55, 63);
     position: relative;
     left: -220px;
 }
@@ -264,8 +314,11 @@ div#listacoding {
     color: rgba(0, 0, 0, 1);
     position: absolute;
     top: 120px;
-    padding-left: 800px;
+    padding-left: 41%;
     width: 600px;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
     transition: all 1s;
     opacity: 1;
 }
@@ -284,8 +337,11 @@ div#listacoding li {
 div#listalightbulb {
     position: absolute;
     top: 370px;
-    padding-left: 800px;
+    padding-left: 41%;
     width: 600px;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
     transition: all 1s;
 }
 
@@ -303,8 +359,11 @@ div#listalightbulb li {
 div#listalinguas {
     position: absolute;
     top: 620px;
-    padding-left: 800px;
+    padding-left: 41%;
     width: 600px;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
     transition: all 1s;
 }
 
@@ -321,39 +380,46 @@ div#listalinguas li {
 
 div#coding {
     position: absolute;
-    padding-left: 670px;
+    padding-left: 35%;
     top: 120px;
+    -moz-transition: all 2s;
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
     transition: all 2s;
 }
 
 img#codingfoto {
-    box-shadow: 1px 1px 4px rgb(5, 55, 63);
     position: relative;
     left: -220px;
 }
 
 div#lightbulb {
     position: absolute;
-    padding-left: 670px;
+    padding-left: 35%;
     top: 370px;
+    -moz-transition: all 2s;
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
     transition: all 2s;
 }
 
 img#lightbulbfoto {
-    box-shadow: 1px 1px 4px rgb(5, 55, 63);
     position: relative;
+    width: 180px;
     left: -220px;
 }
 
 div#linguas {
     position: absolute;
-    padding-left: 670px;
+    padding-left: 35%;
     top: 620px;
+    -moz-transition: all 2s;
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
     transition: all 2s;
 }
 
 img#linguasfoto {
-    box-shadow: 1px 1px 4px rgb(5, 55, 63);
     position: relative;
     left: -220px;
 }
